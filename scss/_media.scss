@@ -1,0 +1,119 @@
+@media (max-width: 576px) {
+  .hero-text {
+    justify-content: center !important;
+  }
+  .hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-heading {
+    h2 {
+      &::before {
+        width: 30%;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      &::after {
+        width: 30%;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+  #testimonials {
+    .section-heading {
+      h2 {
+        &::before,
+        &::after {
+          width: 25% !important;
+        }
+      }
+    }
+    .testim-text,
+    .testim-img {
+      width: 100% !important;
+    }
+  }
+  #contact {
+    .section-heading {
+      h2 {
+        &::before,
+        &::after {
+          width: 20% !important;
+        }
+      }
+    }
+    .contact-col {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-text {
+    justify-content: center !important;
+  }
+  .hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-collapse {
+    flex-direction: column;
+    .social-links {
+      margin-right: 2.5rem;
+    }
+  }
+  .testim-text,
+  .testim-img {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  #hero {
+    min-height: 70vh !important;
+  }
+  #contact {
+    .section-heading {
+      h2 {
+        &::before {
+          width: 30% !important;
+        }
+        &::after {
+          width: 30% !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .price-block {
+    align-items: flex-start;
+    justify-content: start;
+    .two-prices {
+      flex-direction: column !important;
+      .price {
+        text-align: left;
+        padding: 0;
+      }
+    }
+  }
+  #contact {
+    .section-heading {
+      h2 {
+        &::before {
+          width: 30% !important;
+        }
+        &::after {
+          width: 30% !important;
+        }
+      }
+    }
+  }
+}
