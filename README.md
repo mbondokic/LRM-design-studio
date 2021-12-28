@@ -1,2 +1,2 @@
 # LRM-design-studio
-Simple one page Bootstrap website
+Simple one page Bootstrap website template.
